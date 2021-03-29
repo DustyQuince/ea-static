@@ -1,0 +1,43 @@
+<section class="carousel" aria-label="Gallery">
+<section
+  id="{{ section.section_id }}"
+  class="block features-block bg-{{ section.background }} outer"
+  aria-label="Gallery"
+>
+  <div class="carousel inner" >
+    <ol class="carousel__viewport">
+      {% assign prev-index = -1 %}
+      {% for current-slide in section.slides %}
+        {% if forloop.first %}
+          {% assign prev-slide = section.slides.last %}
+          {% assign next-slide = section.slides[forloop.index] %}
+        {% elsif forloop.last %}
+          {% assign prev-slide = section.slides[prev-index] %}
+          {% assign next-slide = section.slides.first %}
+        {% else %}
+          {% assign prev-slide = section.slides[prev-index] %}
+          {% assign next-slide = section.slides[forloop.index] %}
+        {% endif %}
+        {% assign prev-index = prev-index | plus: 1 %}
+      <li id="{{ current-slide.id }}" tabindex="0" class="carousel__slide">
+          <img src="{{ current-slide.image }}" alt="{{ current-slide.image_alt}}">
+          <div class="carousel__snapper">
+          <a href="#{{ prev-slide.id }}" class="carousel__prev">Go to previous slide</a>
+          <a href="#{{ next-slide.id }}" class="carousel__next">Go to next slide</a>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class ="carousel__navigation-list">
+      {% for current-slide in section.slides %}
+        <li class="carousel__navigation-item">
+          <a href="#{{ current-slide.id }}" class="carousel__navigation-button">
+            Go to slide {{ forloop.index }}
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+  </aside>
+  </div>
+</section>
