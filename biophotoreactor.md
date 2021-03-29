@@ -25,7 +25,7 @@ sections:
           The design of the device incorporates a new high efficiency heat sink,
           ensuring a consistent photoredox environment for all your experiments.
       - title: Compatible with Living Cells
-        image: /images/biotech/dish-100.jpg
+        image: /images/biotech/petri-dish-bpr.jpg
         image_alt: petri_dish_bpr
         content: >-
           Our experience designing energy-efficient light solutions has allowed

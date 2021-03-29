@@ -1,5 +1,5 @@
 title: Efficiency Aggregators
-baseurl: /ea-static
+baseurl: /
 permalink: '/:title/'
 collections:
   posts:
