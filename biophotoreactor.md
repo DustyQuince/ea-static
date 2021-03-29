@@ -3,7 +3,7 @@ title: Bio-Photoreactor
 sections:
   - section_id: hero
     type: section_hero
-    image: /images/biotech/edit2.jpg
+    image: /images/biotech/bpr-main.jpg
     image_alt: bpr_200
     title: Light the way forward.
     content: >-
@@ -47,5 +47,60 @@ sections:
           In our design of the BPR-200, we emphasized the ability to perform
           many reactions in parallel. The 24-vial capacity ensures that you get
           the most from your experimental runs.
+      - title: Ready to Order?
+        image: /images/biotech/bpr-secondary.jpg
+        image_alt: bpr_secondary_image
+        content: >-
+          [Get it here.](https://www.fishersci.com/us/en/catalog/search/products?keyword=bpr200)
+  - section_id: contact-form
+    type: section_contact
+    background: white
+    title: Want to request a quote or just have more questions?
+    form_fields:
+      - input_type: text
+        name: name
+        label: Name
+        is_required: true
+      - input_type: email
+        name: email
+        label: Email
+        is_required: true
+      - input_type: select
+        name: subject
+        label: Area of Interest
+        default_value: Biotech
+        options:
+          - Residential
+          - Commercial/Industrial
+          - Something else
+        is-required: true
+      - input_type: textarea
+        name: address
+        label: Address
+        is_hidden: true
+        is_required: true
+      - input_type: textarea
+        name: message
+        label: Message
+        default_value: What can we do for you?
+    submit_label: Send Message
+    
+  - section_id: additional_info
+    type: section_features
+    background: grey
+    title: Publications
+    features:
+      - title: Photocatalysis in Living Cells
+        image: images/biotech/science-magazine-bpr-issue.gif
+        image_alt: science_publication_preview
+        content: >-
+          [Microenvironmental mapping via Dexter energy transfer on immune cells](https://science.sciencemag.org/content/367/6482/1091)
+      - title: What Our Biophotoreactor Can Do
+        image: images/biotech/chemistry-europe.jpg
+        image_alt: chemistry_europe_publication_preview
+        content: >-
+          [Design of a Multiuse Photoreactor To Enable Visible‐Light Photocatalytic Chemical Transformations and Labeling in Live Cells](https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cbic.202000392)
+
+       
 layout: landing
 ---
