@@ -139,6 +139,11 @@ sections:
   - section_id: video
     type: section_youtube
     video-link: https://www.youtube.com/embed/ivOgYskZzdg
+    
+  - section_id: video
+    type: section_youtube
+    video-link: https://www.youtube.com/embed/aiBCrKCZVE4
+    background: white
 
 layout: landing
 ---
