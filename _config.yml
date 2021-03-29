@@ -84,18 +84,11 @@ footer:
 
   has_nav: true
   nav_links:
-    - label: Terms of Service
-      url: /terms-of-service
-      style: link
-    - label: Privacy Policy
-      url: /privacy-policy
-      style: link
   content: >-
-    &copy; Stackbit. All rights reserved. This Jamstack site was created with <a
-    href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank"
-    rel="noopener">Stackbit</a>. Create yours <a
-    href="https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer"
-    target="_blank" rel="noopener">now</a>.
+    &copy; Efficiency Aggregators. All rights reserved. Website theme modified
+    from the Stackbit <a
+    href="https://themes.stackbit.com/demos/azimuth">Azimuth</a>
+    theme.
 sass:
   indentWidth: 4
   style: nested
