@@ -29,7 +29,7 @@ header:
 footer:
   sections:
     - type: footer_text
-      image: images/square-logo.png
+      image: images/branding/square-logo.png
       image_url: /
       image_alt: Footer logo
     - type: footer_nav
@@ -38,48 +38,49 @@ footer:
         - label: About Us
           url: /about
           style: link
-        - label: Blog
-          url: /blog
-          style: link
-        - label: Sign Up
-          url: /signup
-          style: link
         - label: Contact
           url: /contact
           style: link
     - type: footer_nav
       title: Community
       nav_links:
-        - label: Twitter
-          url: 'https://twitter.com/'
+        - label: Facebook
+          url: 'https://www.facebook.com/efficiencyaggregators'
           style: link
           has_icon: true
-          icon: twitter
+          icon: facebook
           icon_position: left
         - label: LinkedIn
-          url: 'https://www.linkedin.com/'
+          url: 'https://www.linkedin.com/company/efficiency-aggregators/'
           style: link
           has_icon: true
           icon: linkedin
           icon_position: left
-        - label: GitHub
-          url: 'https://github.com/'
-          style: link
-          has_icon: true
-          icon: github
-          icon_position: left
-    - type: footer_form
-      title: Subscribe
-      content: Stay up to date with our latest developments.
-      form_id: contactForm
-      hide_labels: true
-      form_fields:
-        - input_type: email
-          name: email
-          label: Email
-          default_value: Enter email address
-          is_required: true
-      submit_label: Subscribe
+        # - label: Twitter
+        #   url: 'https://twitter.com'
+        #   style: link
+        #   has_icon: true
+        #   icon: twitter
+        #   icon_position: left
+    - type: footer_text
+      title: Our Details
+      content: >-
+        - **Email**  
+          [contactus@efficiencyaggregators.com](mailto:contactus@efficiencyaggregators.com)
+
+          **Phone**  
+          [832-862-1103](tel:+1-832-862-1103)
+
+          **Fax**  
+          [832-558-4602](tel:+1-832-558-4602)
+
+          **Address**  
+          [1207 Farm to Market 359
+          Richmond, TX 77406](geo:29.61260903500409,-95.74363544048104)
+    - type: section_gmaps
+      section_id: gmap
+      title: Find Us
+
   has_nav: true
   nav_links:
     - label: Terms of Service
