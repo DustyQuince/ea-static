@@ -77,6 +77,7 @@ footer:
           **Address**  
           [1207 Farm to Market 359
           Richmond, TX 77406](geo:29.61260903500409,-95.74363544048104)
+## TODO - abstract this out so address and api key aren't hardcoded
     - type: section_gmaps
       section_id: gmap
       title: Find Us
