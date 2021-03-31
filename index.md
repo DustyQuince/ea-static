@@ -20,8 +20,8 @@ sections:
       scientific precision. What's your scale?
     features:
       - title: Residential
-        image: images/residential/residential.jpg
-        image_alt: App preview on a phone and tablet
+        image: images/residential/house-in-hand.jpg
+        image_alt: Residential preview
         content: >-
           Backup generation so the lights stay on? LED upgrades so you get the
           most from them? We'll help you figure it out.
@@ -34,7 +34,7 @@ sections:
             icon_position: right
       - title: Commercial & Industrial
         image: images/commercial-industrial/commercial-industrial.jpeg
-        image_alt: App users welcoming a new member
+        image_alt: Commercial preview
         content: >-
           Want more from your lighting without disrupting cashflow? Find out how
           our electrical specialists and energy provider partnerships make that
@@ -48,7 +48,7 @@ sections:
             icon_position: right
       - title: Biotech
         image: images/biotech/biotech.jpeg
-        image_alt: App user profile preview
+        image_alt: Biotech preview
         content: >-
           Need to perform photocatalysis with living cells? Want to do covalent
           labeling of biomolecules? We can help with that too.

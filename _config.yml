@@ -29,7 +29,7 @@ header:
 footer:
   sections:
     - type: footer_text
-      image: images/branding/square-logo.png
+      image: images/branding/secondary-logo.png
       image_url: /
       image_alt: Footer logo
     - type: footer_nav

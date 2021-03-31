@@ -28,8 +28,8 @@ sections:
           terms you qualify for
           [here](https://apply.svcfin.com/home/dealerAuthentication?id=815125711&key=1742219857). 
       - title: Install
-        image: /images/residential/generator-outside.jpeg
-        image_alt: generator_outside
+        image: /images/residential/generac-install.jpg
+        image_alt: generac_install
         content: >-
           One of our licensed electricians does the installation according to
           the plan you developed with EA.
@@ -59,8 +59,8 @@ sections:
     title: Residential Lighting
     features:
       - title: Indoor
-        image: /images/residential/three-fin-fan.jpg
-        image_alt: three_fin_fan
+        image: /images/residential/living-room-into-kitchen.jpg
+        image_alt: living_room_and_kitchen
         content: >-
           We source the highest quality LED fixtures and bulbs, then we ensure
           their optimal placement. That way you get the best lighting and the
@@ -73,7 +73,7 @@ sections:
           outdoor lighting to complement your lifestyle. So you're in the
           driver's seat for color, brightness, direction, and control.
       - title: Installation
-        image: /images/residential/install-demo-pick.jpg
+        image: /images/residential/ceiling-install.jpg
         image_alt: install_demo_pick
         content: >-
           The installation is always handled by our licensed electricians, so
