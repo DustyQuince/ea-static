@@ -6,10 +6,10 @@ sections:
     background: white
     title: Commercial/Industrial
     subtitle: >-
-      Sourcing, installing, and financing industrial lighting is a challenge.
-      There are so many factors to consider, from equipment to placement to
-      financing. That's why we've got you covered for all of it. What does one
-      of our projects look like?:
+      Sourcing, installing, and financing commercial-grade lighting and backup
+      generation is a challenge. There are so many factors to consider, from
+      equipment to placement to financing. That's why we've got you covered for
+      all of it. This is what you can expect from one of our projects:
     features:
       - title: Comprehensive Energy Audit
         image: /images/flexible/lit-room.jpeg
@@ -21,7 +21,7 @@ sections:
           specific space and your unique needs. We're confident that you'll like
           what we can do for you, so this one's on us.
       - title: Review
-        image: /images/flexible/efficiency-journal.jpeg
+        image: /images/flexible/audit-presentation.jpg
         image_alt: efficiency_journal
         content: >-
           We'll sit down with you and get into the numbers. We'll review:
@@ -42,22 +42,22 @@ sections:
           those savings are your's. It's like getting a raise just for improving
           your space.
       - title: Proposal
-        image: /images/flexible/efficiency-concept-visual.jpg
-        image_alt: efficiency_concept_visual
+        image: /images/commercial-industrial/sweetwater-tennis-walk.jpg
+        image_alt: sweetwater_tennis_walk
         content: >-
           You're in the driver's seat. We determine how much money you'll save
           based on our custom solution. We work with you to determine our
           approach to financing the project. Then you make sure that what we've
           designed is perfect for you.
       - title: Installation
-        image: /images/commercial-industrial/walden-ballroom-after.jpg
-        image_alt: walden_ballroom_after_install
+        image: /images/commercial-industrial/parking-half-installed.jpg
+        image_alt: half_installed_parking
         content: >-
           Our technicians who specialize in the installation and optimization of
           lighting systems do the work to upgrade your space.
       - title: Post-Installation Maintenance
-        image: /images/commercial-industrial/workout-room-after.jpg
-        image_alt: workout_room_after
+        image: /images/commercial-industrial/warehouse-maintenance.jpg
+        image_alt: warehouse_maintenance
         content: >-
           Our optional programs for the maintenance of your upgrades ensure that
           your equipment and energy usage is in top shape for years to come.
