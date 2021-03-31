@@ -27,7 +27,7 @@ sections:
           most from them? We'll help you figure it out.
         actions:
           - label: Learn More
-            url: /features
+            url: /residential
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -54,7 +54,7 @@ sections:
           labeling of biomolecules? We can help with that too.
         actions:
           - label: Learn More
-            url: /features
+            url: /biotech
             style: secondary
             has_icon: true
             icon: arrow-right
