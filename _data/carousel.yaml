@@ -1,0 +1,14 @@
+commercial:
+  - image: /images/commercial-industrial/classroom-before-after.jpg
+  - image: /images/commercial-industrial/sanctuary-before-after.jpg
+  - image: /images/commercial-industrial/ballroom-before-after.jpg
+  - image: /images/commercial-industrial/gym-before-after.jpg
+  - image: /images/commercial-industrial/tennis-before-after.jpg
+residential:
+  - image: /images/residential/before-after-1.jpg
+  - image: /images/residential/before-after-2.jpg
+  - image: /images/residential/before-after-3.jpg
+  - image: /images/residential/before-after-4.jpg
+  - image: /images/residential/before-after-5.jpg
+  - image: /images/residential/before-after-6.jpg
+  - image: /images/residential/before-after-7.jpg

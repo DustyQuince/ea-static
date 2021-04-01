@@ -1,9 +1,17 @@
-<section class="carousel" aria-label="Gallery">
 <section
   id="{{ section.section_id }}"
-  class="block features-block bg-{{ section.background }} outer"
+  class="carousel bg-{{ section.background }} outer"
   aria-label="Gallery"
 >
+  <div class="block-header inner-small">
+    {% assign title_is_not_empty = section.title | is_not_empty %} {% if
+    title_is_not_empty %}
+    <h2 class="block-title">{{ section.title }}</h2>
+    {% endif %} {% assign subtitle_is_not_empty = section.subtitle |
+    is_not_empty %} {% if subtitle_is_not_empty %}
+    <p class="block-subtitle">{{ section.subtitle }}</p>
+    {% endif %}
+  </div>
   <div class="carousel inner" >
     <ol class="carousel__viewport">
       {% assign prev-index = -1 %}

@@ -5,6 +5,7 @@
   <h2 class="widget-title">{{ section.title }}</h2>
   {% endif %}
   {% assign nav_links_is_not_empty = section.nav_links | is_not_empty %}
+  {% assign content_is_not_empty = section.content | is_not_empty %}
   {% if nav_links_is_not_empty %}
   <ul class="menu">
     {% for action in section.nav_links %}
@@ -13,5 +14,10 @@
     </li>
     {% endfor %}
   </ul>
+  {% endif %}
+  {% if content_is_not_empty %}
+  {% for some-content in section.content %}
+  <p>{{ some-content.text | markdownify}}</p>
+  {% endfor %}
   {% endif %}
 </section>

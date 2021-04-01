@@ -42,8 +42,8 @@ sections:
           those savings are your's. It's like getting a raise just for improving
           your space.
       - title: Proposal
-        image: /images/commercial-industrial/sweetwater-tennis-walk.jpg
-        image_alt: sweetwater_tennis_walk
+        image: /images/commercial-industrial/tennis-court-after.jpg
+        image_alt: sweetwater_tennis_court
         content: >-
           You're in the driver's seat. We determine how much money you'll save
           based on our custom solution. We work with you to determine our
@@ -93,10 +93,14 @@ sections:
         label: Message
         default_value: What can we do for you?
     submit_label: Send Message
-
+  - section_id: before_and_after
+    type: section_carousel_wrapper
+    background: white
+    title: Before and After
+    images: commercial
   - section_id: reviews
     type: section_reviews
-    background: white
+    background: grey
     title: Testimonials
     subtitle: >-
       What do our customers have to say about us?
@@ -139,11 +143,12 @@ sections:
   - section_id: video
     type: section_youtube
     video-link: https://www.youtube.com/embed/ivOgYskZzdg
+    background: white
     
   - section_id: video
     type: section_youtube
     video-link: https://www.youtube.com/embed/aiBCrKCZVE4
-    background: white
+    background: grey
 
 layout: landing
 ---

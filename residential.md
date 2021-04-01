@@ -112,5 +112,10 @@ sections:
         label: Message
         is_required: true
     submit_label: Send Message
+  - section_id: before_and_after
+    type: section_carousel_wrapper
+    background: white
+    title: Before and After
+    images: residential
 layout: landing
 ---

@@ -30,7 +30,6 @@ footer:
   sections:
     - type: footer_text
       image: images/branding/secondary-logo.png
-      image_url: /
       image_alt: Footer logo
     - type: footer_nav
       title: Company
@@ -41,6 +40,12 @@ footer:
         - label: Contact
           url: /contact
           style: link
+      content:
+        - text: >-
+            Efficiency Aggregators does all electrical installation and
+            maintenance under Master Electrician Guillermo Ormeno Jr. of G&O
+            Electric, LLC. TECL #25865.  
+            [*gandoelectric@hotmail.com*](mailto:gandoelectric@hotmail.com)
     - type: footer_nav
       title: Community
       nav_links:
