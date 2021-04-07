@@ -10,4 +10,5 @@ group :jekyll_plugins do
     gem "jekyll-paginate", "~> 1.1"
 end
 
-gem "webrick", "~> 1.7"
+
+gem "rexml", "~> 3.2"
