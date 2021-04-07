@@ -1,0 +1,31 @@
+<section>
+  <div class="container">
+    <div class="carousel">
+      {% for slide in section.slides %}
+        {% if slide == section.slides.first %}
+          <input type="radio" name="slides" checked="checked" id={{ slide.id }} />
+        {% else %}
+          <input type="radio" name="slides" id={{ slide.id }} />
+        {% endif %}
+      {% endfor %}
+          <ul class="carousel__slides">
+            {% for slide in section.slides %}
+              <li class="carousel__slide">
+                <figure>
+                    <div>
+                      <img src={{ slide.image }} alt="" />
+                  </div>
+                </figure>
+              </li>
+            {% endfor %}
+          </ul>
+          <ul class="carousel__thumbnails">
+            {% for slide in section.slides %}
+              <li style="max-width: calc((100% / {{ section.slides | size }}) - 20px);">
+                <label for={{ slide.id }}><img src={{ slide.image  }} /></label>
+              </li>
+            {% endfor %}
+          </ul>
+    </div>
+  </div>
+</section>

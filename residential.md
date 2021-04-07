@@ -113,9 +113,22 @@ sections:
         is_required: true
     submit_label: Send Message
   - section_id: before_and_after
-    type: section_carousel_wrapper
+    type: section_carousel3
     background: white
     title: Before and After
-    images: residential
+    <!-- images: residential -->
+    slides:
+      - image: /images/residential/before-after-1.jpg
+        id: before-after-1
+      - image: /images/residential/before-after-2.jpg
+        id: before-after-2
+      - image: /images/residential/before-after-3.jpg
+        id: before-after-3
+      - image: /images/residential/before-after-4.jpg
+        id: before-after-4
+      - image: /images/residential/before-after-5.jpg
+        id: before-after-5
+      - image: /images/residential/before-after-6.jpg
+        id: before-after-6
 layout: landing
 ---

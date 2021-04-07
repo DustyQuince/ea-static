@@ -93,11 +93,6 @@ sections:
         label: Message
         default_value: What can we do for you?
     submit_label: Send Message
-  - section_id: before_and_after
-    type: section_carousel_wrapper
-    background: white
-    title: Before and After
-    images: commercial
   - section_id: reviews
     type: section_reviews
     background: grey

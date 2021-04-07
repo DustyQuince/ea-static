@@ -1,5 +1,4 @@
 <section id="{{ section.section_id }}" class="contact-block block bg-{{section.background}} outer">
-    <!-- {% assign images = section.images %} -->
   <div class="block-header inner-small">
     {% assign title_is_not_empty = section.title | is_not_empty %}
     {% if title_is_not_empty %}
@@ -17,5 +16,5 @@
   {% else %}
   {% assign height = 300 %}
   {% endif %}
-  {% include section_carousel2.html height=height unit='px' duration='60' images=section.images %}
+  {% include section_carousel2.html height=20 unit='%' duration='60' images=section.images %}
 </section>

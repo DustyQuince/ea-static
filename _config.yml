@@ -1,5 +1,5 @@
 title: Efficiency Aggregators
-baseurl: /ea-static
+baseurl: /
 permalink: '/:title/'
 collections:
   posts:
@@ -29,7 +29,7 @@ header:
 footer:
   sections:
     - type: footer_text
-      image: images/branding/secondary-logo.png
+      image: images/branding/logo-with-white.png
       image_alt: Footer logo
     - type: footer_nav
       title: Company

@@ -7,7 +7,7 @@
 {% endif %}
 
 
-<div class="carousel__holder">
+<div class="carousel__holder block-content inner">
     <div class="carousel">
         {% for item in images %}
           <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
@@ -33,7 +33,8 @@
         <div class="carousel__track">
           <ul>
             {% for item in images %}
-            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+              <img src="{{ item.image }}" style="height: auto;" >
+              <!-- <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li> -->
             {% endfor %}
           </ul>
         </div>
@@ -46,7 +47,7 @@
 </div>
 
 <style>
-.carousel__holder {width: 30%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: auto;}
+.carousel__holder {position: relative; padding-bottom: {{ include.height }}{{ include.unit }};}
 .carousel {
   height: 100%;
   width: 100%;
