@@ -56,6 +56,8 @@
       />
       {% for field in section.form_fields %} {% include form_field.html
       field=field section=section %} {% endfor %}
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://efficiencyaggregators.com/thank-you">
       <div class="g-recaptcha" data-sitekey="6Lcpp6EaAAAAAO820kpV0v_1CZNIIXK6HIF3WmQu"></div>
       <br/>
       <div class="form-row form-submit">
