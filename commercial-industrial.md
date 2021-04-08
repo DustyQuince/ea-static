@@ -72,7 +72,7 @@ sections:
   - section_id: contact
     type: section_contact
     background: gray
-    form_action: https://formsubmit.co/contactus@efficiencyaggregators.com
+    form_action: https://formsubmit.co/42b42ae959f74fe334305af85219f821
     title: Ready for your free energy audit?
     form_fields:
       - input_type: text

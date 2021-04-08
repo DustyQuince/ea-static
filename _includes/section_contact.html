@@ -3,6 +3,7 @@
   id="{{ section.section_id }}"
   class="block contact-block bg-{{ section.background }} outer"
 >
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <div class="block-header inner-small">
     {% assign title_is_not_empty = section.title | is_not_empty %} {% if
     title_is_not_empty %}
@@ -55,6 +56,8 @@
       />
       {% for field in section.form_fields %} {% include form_field.html
       field=field section=section %} {% endfor %}
+      <div class="g-recaptcha" data-sitekey="6Lcpp6EaAAAAAO820kpV0v_1CZNIIXK6HIF3WmQu"></div>
+      <br/>
       <div class="form-row form-submit">
         <button type="submit" class="button">{{ section.submit_label }}</button>
       </div>
