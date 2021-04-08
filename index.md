@@ -4,8 +4,9 @@ sections:
   - section_id: hero
     type: section_hero
     image: images/flexible/lightbulb-hand-square.jpeg
-    image_alt: App preview
+    image_alt: Hand holding a lightbulb with a tree in it
     title: Get more from the light you live in.
+    background: white
     content: >-
       Energy is the lifeblood of the modern world. Efficiency Aggregators is
       here to help you get the most out of it. EA looks at your unique energy

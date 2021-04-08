@@ -1,15 +1,23 @@
 ---
 title: Commercial/Industrial
 sections:
-  - section_id: commercial_industrial_work
-    type: section_features
-    background: white
+  - section_id: commercial-industrial-intro
+    type: section_hero
+    image: images/commercial-industrial/commercial-industrial.jpeg
+    image_alt: Skyscrapers seen from below
+    background: grey
     title: Commercial/Industrial
-    subtitle: >-
+    content: >-
       Sourcing, installing, and financing commercial-grade lighting and backup
       generation is a challenge. There are so many factors to consider, from
       equipment to placement to financing. That's why we've got you covered for
-      all of it. This is what you can expect from one of our projects:
+      all of it.
+  - section_id: commercial_industrial_work
+    type: section_features
+    background: white
+    title: The Process
+    subtitle: >-
+      Let's see what you can expect step-by-step:
     features:
       - title: Comprehensive Energy Audit
         image: /images/flexible/lit-room.jpeg
@@ -93,6 +101,22 @@ sections:
         label: Message
         default_value: What can we do for you?
     submit_label: Send Message
+  - section_id: commercial-before-and-after
+    type: section_carousel3
+    background: white
+    title: Before and After
+    # TODO - Implement  image-alt 
+    slides:
+      - image: /images/commercial-industrial/ballroom-before-after.jpg
+        id: ballroom-before-after
+      - image: /images/commercial-industrial/gym-before-after.jpg
+        id: gym-before-after
+      - image: /images/commercial-industrial/sanctuary-before-after.jpg
+        id: sanctuary-before-after
+      - image: /images/commercial-industrial/tennis-before-after.jpg
+        id: tennis-before-after
+      - image: /images/commercial-industrial/classroom-before-after.jpg
+        id: classroom-before-after
   - section_id: reviews
     type: section_reviews
     background: grey

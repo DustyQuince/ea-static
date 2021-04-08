@@ -1,12 +1,28 @@
 ---
 title: About Us
-subtitle: >-
-  This is an optional subtitle. It can be used to describe what this page is
-  about.
-image: images/about.jpg
-image_alt: Team members in a conference room
+sections:
+  - section_id: hero
+    type: section_hero
+    image: images/flexible/lightbulb-hand-square.jpeg
+    image_alt: Hand holding a lightbulb with a tree in it
+    title: About Us
+    background: white
+    content: >-
+      EA has created energy efficient programs and products that allow businesses to
+      thrive. We design and fabricate advanced technologies that maximize your
+      operational efficiency and can directly impact a business’s bottom line. We
+      provide full service solutions for LED upgrades and we can customize light
+      specifications specific to your unique application. EA can help reduce your
+      energy consumption resulting in lower monthly expenditure.
+
+
+      EA also partners with skilled electricians specializing in LED install, we are
+      there from the first energy audit to your post project walk through. In
+      addition, we also partner with energy companies willing to finance your lighting
+      upgrade resulting in  no upfront cost. Keep your operational budget for
+      something else and let your new lights basically pay for themselves.
+
 seo:
-  title: About Us
   description: This is the about page
   extra:
     - name: 'og:type'
@@ -31,9 +47,5 @@ seo:
     - name: 'twitter:image'
       value: images/about.jpg
       relativeUrl: true
-layout: page
+layout: landing
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus tortor pretium ligula, eu malesuada tortor eros dapibus mi. Proin laoreet efficitur suscipit. Donec molestie volutpat euismod. Nulla gravida ligula in eros facilisis, sed dignissim tellus aliquam. Etiam convallis enim nisi, at suscipit tortor pulvinar at. Nulla a interdum lacus. Sed a porttitor mi. Sed at risus eu orci ultricies mattis sed in tellus. Cras nec neque sed dui vehicula iaculis id vel ex. Phasellus non consectetur augue. Pellentesque condimentum sapien arcu, nec tempus nunc maximus eu. Duis blandit risus nulla. In dolor dui, placerat non finibus sit amet, venenatis pretium tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Nunc a lorem tellus. Aenean eu auctor purus. Cras pulvinar, nunc at sagittis dignissim, orci elit auctor leo, et consectetur est turpis a nunc. Vivamus in faucibus felis. Aenean rutrum magna at ex auctor, congue efficitur ligula feugiat. Proin a egestas arcu. Etiam feugiat turpis quis mollis pellentesque. Sed posuere luctus tortor, a eleifend augue varius sit amet. Integer ultrices neque sed quam dictum, quis vestibulum justo volutpat. Nam vitae tempus leo, ut mattis mi.

@@ -1,11 +1,13 @@
 ---
 title: Bio-Photoreactor
 sections:
-  - section_id: biophotoreactor_features
-    type: section_features
-    background: white
+  - section_id: biophotoreactor-intro
+    type: section_hero
+    image: /images/biotech/biotech.jpeg
+    image_alt: Erlenmeyer flask lit up
+    background: grey
     title: Light the way forward.
-    subtitle: >-
+    content: >-
       For as long as we can remember, light has been about what we can see with
       it. But as biotech and synthetic chemistry become more mature, we're
       asking new questions about light. What can we do with it? What can we 
@@ -13,8 +15,12 @@ sections:
       synthesis and discovery, but getting the experimental conditions just
       right is no easy task, especially when there are living cells involved.
       That's where we come in.
+  - section_id: biophotoreactor_features
+    type: section_features
+    background: white
+    title: Biophotoreactor Features
     features:
-      - title: Our Biophotoreactor
+      - title: Flexible Experimental Conditions
         image: /images/biotech/bpr-main.jpg
         image_alt: bpr200
         content: >-
@@ -35,6 +41,13 @@ sections:
           us to create a device that can perform photocatalytic chemistry on
           most living cells. The low-heat, low-energy design allows living cells
           to survive and thrive during photoredox reactions.
+      - title: Multiple Chipsets
+        image: /images/biotech/bpr-red-green.jpg
+        image_alt: Two other colors, green and red
+        content: >-
+          No need to have multiple photoreactors to perform experiments using
+          different wavelengths of light. Interchangeable chipsets allow you to
+          catalyze reactions using 555nm green light or 660nm red light.
       - title: Covalent Labeling of Biomolecules
         image: /images/biotech/covalent-labeling.jpg
         image_alt: covalent_labeling

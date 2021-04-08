@@ -1,14 +1,22 @@
 ---
 title: Residential
 sections:
+  - section_id: residential-intro
+    type: section_hero
+    image: images/residential/house-in-hand.jpg
+    image_alt: Lit up house in hands
+    background: grey
+    title: Residential
+    content: >-
+      Your house is your biggest asset and your biggest expense. It's also your
+      home. You want it to be ready for anything. You want to get more from the
+      light you live in.
   - section_id: residential_work
     type: section_features
     background: white
-    title: Residential
+    title: The Process
     subtitle: >-
-      Your house is your biggest asset and your biggest expense. It's also your
-      home. You want it to be ready for anything. You want to get more from the
-      light you live in. Let us show you what that looks like:
+      Let's see what you can expect step-by-step:
     features:
       - title: Quote
         image: /images/flexible/high-fives-all-around.jpeg
@@ -116,19 +124,20 @@ sections:
     type: section_carousel3
     background: white
     title: Before and After
-    <!-- images: residential -->
     slides:
-      - image: /images/residential/before-after-1.jpg
-        id: before-after-1
-      - image: /images/residential/before-after-2.jpg
-        id: before-after-2
-      - image: /images/residential/before-after-3.jpg
-        id: before-after-3
-      - image: /images/residential/before-after-4.jpg
-        id: before-after-4
-      - image: /images/residential/before-after-5.jpg
-        id: before-after-5
-      - image: /images/residential/before-after-6.jpg
-        id: before-after-6
+      - image: /images/residential/res-before-after-1.jpg
+        id: res-before-after-1
+      - image: /images/residential/res-before-after-2.jpg
+        id: res-before-after-2
+      - image: /images/residential/res-before-after-3.jpg
+        id: res-before-after-3
+      - image: /images/residential/res-before-after-4.jpg
+        id: res-before-after-4
+      - image: /images/residential/res-before-after-5.jpg
+        id: res-before-after-5
+      - image: /images/residential/res-before-after-6.jpg
+        id: res-before-after-6
+      - image: /images/residential/res-before-after-7.jpg
+        id: res-before-after-7
 layout: landing
 ---
