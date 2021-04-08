@@ -71,6 +71,7 @@ sections:
   - section_id: contact-form
     type: section_contact
     background: grey
+    form_action: https://formsubmit.co/contactus@efficiencyaggregators.com
     title: Want to request a quote or just have more questions?
     form_fields:
       - input_type: text

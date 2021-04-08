@@ -1,5 +1,7 @@
-<section id="{{ section.section_id }}" class="block hero-block bg-{{section.background}} outer">
+<section id="{{ section.section_id }}" class="block hero-block
+                                              bg-{{section.background}} outer car">
   <div class="container">
+    <h2>{{section.title}}</h2>
     <div class="carousel">
       {% for slide in section.slides %}
         {% if slide == section.slides.first %}

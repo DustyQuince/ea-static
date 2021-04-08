@@ -89,6 +89,7 @@ sections:
   - section_id: contact
     type: section_contact
     background: grey
+    form_action: https://formsubmit.co/contactus@efficiencyaggregators.com
     title: Learn more
     subtitle: >-
       Ready to schedule your free quote? Just have a few more questions? Let us
