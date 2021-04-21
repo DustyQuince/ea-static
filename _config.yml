@@ -1,5 +1,6 @@
 title: Efficiency Aggregators
 baseurl: /
+url: "https://efficiencyaggregators.com"
 permalink: '/:title/'
 collections:
   posts:
@@ -100,6 +101,7 @@ sass:
   precision: 10
 plugins:
   - jekyll-menus
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
