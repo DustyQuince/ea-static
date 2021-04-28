@@ -135,6 +135,17 @@
     };
     version = "1.9.4";
   };
+  jekyll-responsive-image = {
+    dependencies = ["jekyll" "rmagick"];
+    groups = ["jekyll_plugins"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0v5q54k9q379dqgy168f8h55dl5vjgyn8npj3ahrmf3zjq9hlqzp";
+      type = "gem";
+    };
+    version = "1.6.0";
+  };
   jekyll-sass-converter = {
     dependencies = ["sass"];
     groups = ["default" "jekyll_plugins"];
@@ -260,6 +271,16 @@
       type = "gem";
     };
     version = "3.2.5";
+  };
+  rmagick = {
+    groups = ["default" "jekyll_plugins"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "04ahv5gwfwdmwx6b7c0z91rrsfklvnqichgnqk1f9b9n6md3b8yw";
+      type = "gem";
+    };
+    version = "4.2.2";
   };
   rouge = {
     groups = ["default" "jekyll_plugins"];

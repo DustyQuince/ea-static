@@ -27,7 +27,7 @@ sections:
           Backup generation so the lights stay on? LED upgrades so you get the
           most from them? We'll help you figure it out.
         actions:
-          - label: Learn More
+          - label: What can we do for your home?
             url: /residential
             style: secondary
             has_icon: true
@@ -41,7 +41,7 @@ sections:
           our electrical specialists and energy provider partnerships make that
           happen.
         actions:
-          - label: Learn More
+          - label: How much can we save your business?
             url: /commercial-industrial
             style: secondary
             has_icon: true
@@ -54,7 +54,7 @@ sections:
           Need to perform photocatalysis with living cells? Want to do covalent
           labeling of biomolecules? We can help with that too.
         actions:
-          - label: Learn More
+          - label: What can you do with photocatalysis?
             url: /biotech
             style: secondary
             has_icon: true

@@ -1,5 +1,5 @@
 title: Efficiency Aggregators
-baseurl: /
+baseurl: /ea-static
 url: "https://efficiencyaggregators.com"
 permalink: '/:title/'
 collections:
@@ -7,6 +7,13 @@ collections:
     permalink: '/posts/:title/'
 base_font: nunito-sans
 palette: green
+responsive_image:
+  template: _includes/responsive-image-images.html
+  sizes:
+    - width: 320
+    - width: 480
+    - width: 800
+  base_path:
 header:
   logo_img: images/branding/EfficiencyAggregators_1.png
   logo_img_alt: Logo
